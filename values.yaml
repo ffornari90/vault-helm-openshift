@@ -510,7 +510,7 @@ server:
               name: minio-secret
               key: MINIO_ROOT_PASSWORD
         - name: MINIO_ADDRESS
-          value: "minio.minio-ns.svc:9000"
+          value: "minio-api.minio-ns.svc:9000"
         - name: IAM_URL
           value: "https://iam-indigo.cr.cnaf.infn.it/"
       volumeMounts:
